@@ -1,0 +1,118 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("/assets/images/header/ai_header_image_dark_grey_mobile.png");
+    height: 447px;
+    background-size: 100vw 484px;
+
+}
+
+.navbar h1 {
+    color: var(--primary);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.logo_blue_home {
+    position: absolute;
+    top: 18px;
+    left: 26px;
+}
+
+.logo_blue_home img {
+    width: 111px;
+    height: 79px;
+    border: 1px;
+}
+
+.burger_menu_tornado_blue {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.burger_menu_tornado_blue img {
+    height: 63px;
+    width: 50px;
+}
+
+
+.blur_grey_home {
+    position: absolute;
+    bottom: 0;
+    border-top: 12px solid rgba(0, 0, 0, 0.10);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(180deg, rgba(191, 192, 196, 0.50) 0%, rgba(191, 192, 196, 0.50) 85.42%);
+    height: 100px;
+    width: 100vw;
+}
+
+@media (min-width: 836px) {
+    .navbar {
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+
+    .navbar h1 {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        font-size: 45px;
+        position: absolute;
+        left: 320px;
+    }
+
+    .burger_menu_tornado_blue {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .burger_menu_tornado_blue img {
+        margin-right: 15px;
+    }
+
+
+    .blur_grey_home {
+        width: 100vw;
+    }
+
+
+}
+
+@media (min-width:1737px) {
+    .navbar {
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+
+    .navbar h1 {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+        font-size: 45px;
+        position: absolute;
+        left: 70px;
+        bottom: 0.1px;
+    }
+    .logo_blue_home {
+        position: absolute;
+        top: 50px;
+        left: 70px;
+    }
+
+    .burger_menu_tornado_blue {
+        position: absolute;
+        right: 70px;
+        bottom: 20px;
+    }
+
+    .burger_menu_tornado_blue img {
+        margin-right: 15px;
+    }
+
+
+    .blur_grey_home {
+        width: 100vw;
+    }
+
+}

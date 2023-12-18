@@ -1,0 +1,220 @@
+
+.target_box1_black {
+    width: 428px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.target_box1_black img {
+    width: 400px;
+    height: 332px;
+    margin-left: 12px;
+    margin-top: 30px;
+
+}
+.gradient_black_box {
+    width: 124px;
+    height: 135px;
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 4px;
+    margin-bottom: 115px;
+    margin-top: 75px;
+    margin-left: 12px;
+    position: absolute;
+    display: flex;
+
+}
+
+.target_box1_black h2 {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.target_box2_black {
+    width: 428px;
+    height: 256px;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.target_box2_black img {
+    width: 237px;
+    height: 226px;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.gradiant_grey_box {
+    width: 141px;
+    height: 226px;
+    background-color: rgba(255, 255, 255, 0.22);
+    position: absolute;
+    display: flex;
+    margin-left: 270px;
+    margin-bottom: 35px;
+    border-radius: 4px;
+
+}
+
+.gradiant_grey_box h2 {
+    color: #F16808;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+
+}
+
+.target_box3_black {
+    width: 428px;
+    height: 258px;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.target_box3_black img {
+    width: 238px;
+    height: 220px;
+    margin-left: 170px;
+    border-radius: 4px;
+}
+
+.gradiant_grey_box2 {
+    width: 141px;
+    height: 226px;
+    background-color: rgba(255, 255, 255, 0.22);
+    position: absolute;
+    margin-left: 12px;
+    border-radius: 4px;
+
+}
+
+.gradiant_grey_box2 h2:nth-child(1) {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+.gradiant_grey_box2 h2:nth-child(2){
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.gradiant_grey_box2 p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.target_box4_black {
+    width: 428px;
+    height: 230px;
+    background-color: black;
+    position: relative;
+    display: flex;
+
+}
+
+.target_box4_black img {
+    width: 244px;
+    height: 180px;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.gradiant_grey_box3 {
+    width: 135px;
+    height: 184px;
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.gradiant_grey_box3 h2 {
+    color: #F16808;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+.target_box5_black {
+    width: 428px;
+    height: 197px;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.target_box5_black img {
+    width: 207px;
+    height: 175px;
+    border-radius: 4px;
+    margin-left: 205px;
+
+}
+
+.gradiant_grey_box4 {
+    width: 175px;
+    height: 184px;
+    background-color: rgba(255, 255, 255, 0.22);
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-bottom: 100px;
+    position: absolute;
+    display: flex;
+
+}
+
+.target_box5_black h2 {
+    color: #F16808;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+.target_box5_black p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin-left: 12px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 45px;
+}
+
+.target_box6_black {
+    width: 428px;
+    height: 218px;
+    background-color: black;
+}
+
+.target_box6_black h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.visit_us_button {
+
+}
