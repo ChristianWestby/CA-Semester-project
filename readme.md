@@ -77,7 +77,6 @@ Lorem ipsum- text
 
 
 
-5. Appendices
 
-Start writing here
-![image](https://github.com/ChristianWestby/CA-Semester-project/assets/144798762/c5180a3b-e7a5-4e1e-90a4-de7b69a3aa35)
+
+
