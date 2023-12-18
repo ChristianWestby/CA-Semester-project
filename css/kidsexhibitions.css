@@ -187,7 +187,6 @@
     position: absolute;
     margin-left: 35px;
     margin-top: 25px;
-    /*margin-right: 0px;*/
 
 }
 
@@ -375,87 +374,94 @@
 
     .kid_page_box2_black {
         width: 100vw;
-        height: 462px;
+        height: 662px;
         background-color: black;
         position: relative;
         display: flex;
+        margin: 0;
     }
 
     .kid_page_box2_black img {
-        width: 434px;
-        height: 438px;
-        margin-left: 12px;
+        width: 534px;
+        height: 538px;
+        margin-left: 25px;
         border-radius: 4px;
         position: absolute;
-        margin-top: 12px;
+        margin-top: 60px;
 
     }
 
-    .darker_gradient_frame2 {
-        width: 355px;
-        height: 280px;
-        border-radius: 4px;
+    .darker_gradient_frame22 {
+        position: relative;
+        display: flex;
+    }
+
+    .darker_gradient_frame22 {
+        width: 240px;
+        height: 538px;
+        border-radius: 8px;
         background: rgba(198, 72, 221, 0.49);
         position: absolute;
         display: flex;
-        right: 50px;
-        top: 80px;
+        right: 25px;
+        top: 55px;
 
     }
 
-    .kid_page_box2_black h3 {
+    .darker_gradient_frame22 h3 {
         color: white;
-        margin-left: 500px;
+        right: 80px;
         position: absolute;
-        margin-top: 10px;
-        font-size: 24px;
+        top: 10px;
+        font-size: 35px;
         display: flex;
+        padding-right: 40px;
+        padding-left: 80px;
     }
 
-    .kid_page_box2_black p {
+    .darker_gradient_frame22 p {
         color: white;
         font-family: 'Open Sans', sans-serif;
-        font-size: 10px;
+        font-size: 14px;
         font-weight: normal;
         position: absolute;
-        margin-left: 500px;
-        padding-right: 75px;
-        padding-top: 40px;
+        right: 105px;
+        padding-top: 170px;
+        padding-bottom: 270px;
+
     }
 
     .kid_page_box3_black {
-        width: 428px;
-        height: 278px;
+        width: 100vw;
+        height: 378px;
         background-color: black;
         position: relative;
         display: flex;
-
     }
 
     .kid_page_box3_black img {
-        width: 193px;
-        height: 242px;
-        margin-left: 220px;
+        width: 293px;
+        height: 342px;
+        margin-left: 520px;
         border-radius: 4px;
-
     }
 
     .darker_gradient_frame2 {
-        width: 188px;
-        height: 240px;
+        width: 388px;
+        height: 270px;
         background-color: rgba(198, 72, 221, 55%);
         border-radius: 4px;
         position: absolute;
-        margin-left: 12px;
+        margin-left: 25px;
 
     }
 
     .light_purple_gradient_frame2 {
-        width: 163px;
+        width: 340px;
         height: 210px;
         background-color: rgba(198, 72, 221, 85%);
         position: absolute;
-        margin-left: 25px;
+        margin-left: 45px;
         margin-top: 15px;
         border-radius: 4px;
     }
@@ -466,54 +472,53 @@
         font-size: 20px;
         font-weight: bold;
         position: absolute;
-        margin-left: 30px;
+        margin-left: 50px;
         margin-right: 280px;
+        top: 20px;
     }
 
     .kid_page_box3_black p {
         color: white;
         position: absolute;
         margin-top: 125px;
-        margin-left: 30px;
+        margin-left: 75px;
         margin-right: 280px;
     }
 
     .kid_page_box4_black {
-        width: 428px;
-        height: 197px;
+        width: 100vw;
+        height: 320px;
         background-color: black;
         position: relative;
         display: flex;
     }
 
     .kid_page_box4_black img {
-        width: 190px;
-        height: 172px;
+        width: 330px;
+        height: 272px;
         border-radius: 4px;
-        margin-left: 12px;
+        margin-left: 25px;
     }
 
     .kid_page_box4_black h3:nth-child(1) {
         color: white;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: normal;
         position: absolute;
-        margin-left: 35px;
+        margin-left: 190px;
         margin-top: 5px;
 
     }
 
-    .kid_page_box4_black h3:nth-child(2){
+    .kid_page_box4_black h3:nth-child(2) {
         color: white;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: normal;
         position: absolute;
-        margin-left: 35px;
-        margin-top: 25px;
-        /*margin-right: 0px;*/
-
+        margin-left: 190px;
+        margin-top: 45px;
     }
 
     .kid_page_box4_black p {
@@ -522,13 +527,14 @@
         font-size: 10px;
         font-weight: normal;
         position: absolute;
-        margin-left: 40px;
-        margin-top: 60px;
+        margin-left: 190px;
+        margin-top: 90px;
+        padding-right: 85px;
     }
 
     .kid_page_box5_black {
-        width: 428px;
-        height: 197px;
+        width: 100vw;
+        height: 297px;
         background-color: black;
         position: relative;
         display: flex;
@@ -536,92 +542,93 @@
     }
 
     .kid_page_box5_black img {
-        width: 237px;
-        height: 140px;
+        width: 480px;
+        height: 240px;
         border-radius: 4px;
-        margin-left: 172px;
+        right: 25px;
         position: absolute;
         margin-top: 15px;
 
     }
+
     .darker_gradient_frame3 {
-        width: 149px;
-        height: 139px;
+        width: 249px;
+        height: 239px;
         border-radius: 4px;
         background-color: rgba(198, 72, 221, 55%);
         position: absolute;
-        margin-left: 12px;
+        margin-left: 25px;
         margin-top: 15px;
     }
 
     .light_purple_gradient_frame3 {
-        width: 123px;
-        height: 121px;
+        width: 223px;
+        height: 221px;
         background-color: rgba(198, 72, 221, 85%);
         border-radius: 4px;
         position: absolute;
-        margin-left: 25px;
+        margin-left: 38px;
         margin-top: 23px;
     }
 
     .kid_page_box5_black h3:nth-child(6) {
         color: #00D2FF;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
         position: absolute;
-        margin-left: 40px;
-        margin-top: 100px;
+        margin-left: 55px;
+        margin-top: 170px;
     }
 
-    .kid_page_box5_black h3:nth-child(5){
+    .kid_page_box5_black h3:nth-child(5) {
         color: #00D2FF;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
         position: absolute;
-        margin-left: 40px;
-        margin-top: 65px;
+        margin-left: 80px;
+        margin-top: 110px;
     }
-    .kid_page_box5_black h3:nth-child(4){
+
+    .kid_page_box5_black h3:nth-child(4) {
         color: #00D2FF;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
         position: absolute;
-        margin-left: 40px;
-        margin-top: 30px;
+        margin-left: 55px;
+        margin-top: 50px;
     }
 
     .kid_page_box6_black {
-        width: 428px;
-        height: 150px;
+        width: 100vw;
+        height: 250px;
         background-color: black;
     }
 
     .kid_page_box6_black img {
-        width: 400px;
-        height: 138px;
+        width: 790px;
+        height: 238px;
         border-radius: 4px;
-        margin-left: 12px;
+        margin-left: 25px;
     }
 
     .kid_page_box7_black {
-        width: 428px;
-        height: 180px;
+        width: 100vw;
+        height: 250px;
         background-color: black;
     }
 
     .kid_page_box7_black img {
-        width: 400px;
-        height: 138px;
+        width: 790px;
+        height: 238px;
         border-radius: 4px;
-        margin-left: 12px;
-        margin-top: 10px;
+        margin-left: 25px;
     }
 
     .kid_page_box8_black {
-        width: 428px;
+        width: 100vw;
         height: 225px;
         background-color: black;
     }
@@ -654,6 +661,358 @@
         font-size: 20px;
     }
 
+    /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+    /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+    @media (min-width: 1737px) {
+        .kid_page_box1_black {
+            width: 100vw;
+            height: 855px;
+        }
+
+        .kid_page_box1_black img {
+            width: 1400px;
+            height: 816px;
+        }
+
+        .light_purple_gradient_frame1 {
+            width: 420px;
+            height: 580px;
+            border-radius: 4px;
+            background: rgba(198, 72, 221, 0.49);
+            position: absolute;
+            display: flex;
+            right: 150px;
+            margin-top: 60px;
+        }
+
+        .darker_gradient_frame1 {
+            width: 390px;
+            height: 520px;
+            background: rgba(0, 0, 0, 0.35);
+            border-radius: 4px;
+            right: 165px;
+            position: absolute;
+            display: flex;
+            margin-top: 90px;
+        }
+
+        .kid_page_box1_black h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            display: flex;
+            top: 20px;
+            left: 80px;
+        }
+
+        .kid_page_box1_black p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            color: white;
+            margin-bottom: 60px;
+            position: absolute;
+            right: 80px;
+            padding: 50px 80px 80px;
+
+        }
+
+        .kid_page_box2_black {
+            width: 100vw;
+            height: 862px;
+            background-color: black;
+            position: relative;
+            display: flex;
+            margin: 0;
+        }
+
+        .kid_page_box2_black img {
+            width: 734px;
+            height: 738px;
+            margin-left: 70px;
+        }
+
+        .darker_gradient_frame22 {
+            position: relative;
+            display: flex;
+        }
+
+        .darker_gradient_frame22 {
+            width: 740px;
+            height: 538px;
+            border-radius: 8px;
+            background: rgba(198, 72, 221, 0.49);
+            position: absolute;
+            display: flex;
+            right: 70px;
+            top: 55px;
+
+        }
+
+        .darker_gradient_frame22 h3 {
+            color: white;
+            right: 560px;
+            position: absolute;
+            top: 10px;
+            font-size: 35px;
+            display: flex;
+            padding-right: 20px;
+
+        }
+
+        .darker_gradient_frame22 p {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            position: absolute;
+            right: 450px;
+            top: 40px;
 
 
+
+        }
+
+        .kid_page_box3_black {
+            width: 100vw;
+            height: 778px;
+            background-color: black;
+            position: relative;
+            display: flex;
+        }
+
+        .kid_page_box3_black img {
+            width: 875px;
+            height: 742px;
+            margin-left: 795px;
+            border-radius: 4px;
+        }
+
+        .darker_gradient_frame2 {
+            width: 688px;
+            height: 470px;
+            background-color: rgba(198, 72, 221, 55%);
+            border-radius: 4px;
+            position: absolute;
+            margin-left: 70px;
+
+        }
+
+        .light_purple_gradient_frame2 {
+            width: 640px;
+            height: 410px;
+            background-color: rgba(198, 72, 221, 85%);
+            position: absolute;
+            margin-left: 95px;
+            margin-top: 25px;
+            border-radius: 4px;
+        }
+
+        .kid_page_box3_black h3 {
+            color: #00D2FF;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 120px;
+            margin-right: 280px;
+            top: 40px;
+        }
+
+        .kid_page_box3_black p {
+            color: white;
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 210px;
+            margin-right: 310px;
+            font-size: 24px;
+        }
+
+        .kid_page_box4_black {
+            width: 100vw;
+            height: 620px;
+            background-color: black;
+            position: relative;
+            display: flex;
+        }
+
+        .kid_page_box4_black img {
+            width: 630px;
+            height: 472px;
+            border-radius: 4px;
+            margin-left: 70px;
+        }
+
+        .kid_page_box4_black h3:nth-child(1) {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 190px;
+            margin-top: 5px;
+
+        }
+
+        .kid_page_box4_black h3:nth-child(2) {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 190px;
+            margin-top: 45px;
+        }
+
+        .kid_page_box4_black p {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 24px;
+            font-weight: normal;
+            position: absolute;
+            margin-left: 190px;
+            margin-top: 130px;
+            padding-right: 85px;
+        }
+
+        .kid_page_box5_black {
+            width: 100vw;
+            height: 497px;
+            background-color: black;
+            position: relative;
+            display: flex;
+
+        }
+
+        .kid_page_box5_black img {
+            width: 880px;
+            height: 440px;
+            border-radius: 4px;
+            right: 70px;
+            position: absolute;
+            margin-top: 15px;
+
+        }
+
+        .darker_gradient_frame3 {
+            width: 449px;
+            height: 439px;
+            border-radius: 4px;
+            background-color: rgba(198, 72, 221, 55%);
+            position: absolute;
+            margin-left: 70px;
+            margin-top: 15px;
+        }
+
+        .light_purple_gradient_frame3 {
+            width: 423px;
+            height: 421px;
+            background-color: rgba(198, 72, 221, 85%);
+            border-radius: 4px;
+            position: absolute;
+            margin-left: 82px;
+            margin-top: 23px;
+        }
+
+        .kid_page_box5_black h3:nth-child(6) {
+            color: #00D2FF;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 290px;
+        }
+
+        .kid_page_box5_black h3:nth-child(5) {
+            color: #00D2FF;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 180px;
+            margin-top: 190px;
+        }
+
+        .kid_page_box5_black h3:nth-child(4) {
+            color: #00D2FF;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 80px;
+        }
+
+        .kid_page_box6_black {
+            width: 100vw;
+            height: 350px;
+            background-color: black;
+        }
+
+        .kid_page_box6_black img {
+            width: 1600px;
+            height: 238px;
+            border-radius: 4px;
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+
+        .kid_page_box7_black {
+            width: 100vw;
+            height: 350px;
+            background-color: black;
+        }
+
+        .kid_page_box7_black img {
+            width: 1400px;
+            height: 238px;
+            border-radius: 4px;
+            margin-left: 170px;
+            margin-top: 50px;
+        }
+
+        .kid_page_box8_black {
+            width: 100vw;
+            height: 225px;
+            background-color: black;
+        }
+
+        .kid_page_box8_black h2 {
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 35px;
+            font-weight: normal;
+            text-align: center;
+            padding-top: 45px;
+            margin: 0;
+        }
+
+        .visit_us_button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35px;
+            width: 112px;
+            background-color: #00D2FF;
+            color: white;
+            border-radius: 4px;
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .visit_us_button h4 {
+            font-size: 20px;
+        }
+
+    }
 }
+
+
+
+
+
+

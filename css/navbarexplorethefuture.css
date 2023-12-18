@@ -47,3 +47,54 @@
     height: 100px;
     width: 427px;
 }
+
+@media (min-width: 837px) {
+    .navbar {
+        background-image: url("../assets/images/header/head_ai_image_resize.png");
+        width: 100vw;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar h1 {
+        color: #F16808;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .logo_explore_orange {
+        position: absolute;
+        top: 18px;
+        left: 26px;
+
+    }
+    .logo_explore_orange img {
+        width: 111px;
+        height: 76px;
+
+    }
+
+    .burger_menu_tornado_orange {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .burger_menu_tornado_orange img {
+        height: 63px;
+        width: 50px;
+        border-color: black;
+    }
+
+    .blur_orange_home {
+        position: absolute;
+        bottom: 0;
+        border-top: 12px solid rgba(0, 0, 0, 0.33);
+        background: rgba(241, 104, 8, 0.68);
+        height: 100px;
+        width: 100vw;
+    }
+
+
+}

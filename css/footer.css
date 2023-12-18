@@ -106,7 +106,7 @@
         width: 100vw;
         height: 116px;
         position: absolute;
-        bottom: 140px;
+        bottom: 180px;
     }
 
     .home_box_5_astronaut {
@@ -181,10 +181,15 @@
         margin-right: 50px;
         text-underline: black;
     }
-
+    .copyright {
+        position: relative;
+        display: flex;
+    }
     .copyright img {
-        margin-right: 5px;
-        margin-bottom: 25px;
+        position: absolute;
+        display: flex;
+        margin-left: 170px;
+        padding-bottom: 90px;
 
     }
 @media (min-width: 1737px) {

@@ -7,7 +7,7 @@
     background-image: url("/assets/images/header/ai_header_image_dark_grey_mobile.png");
     height: 447px;
     width: 429px;
-    background-size: 100vw 484px;
+    background-size: cover;
 }
 
 .navbar h1 {
@@ -50,7 +50,10 @@
 
 @media (min-width: 837px) {
     .navbar {
+        background-image: url("../assets/images/header/head_ai_image_resize.png");
         width: 100vw;
+        background-position: 50% 50%;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
@@ -90,11 +93,12 @@
         border-top: 12px solid rgba(0, 0, 0, 0.00);
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(180deg, rgba(80, 58, 105, 0.50) 0%, rgba(80, 58, 105, 0.50) 85.42%);
         height: 100px;
-        width: 837px;
+        width: 100vw;
     }
 @media (min-width: 1737px) {
     .navbar {
         width: 100vw;
+        background-image: url("../assets/images/header/head_ai_image_resize.png");
         background-repeat: no-repeat;
         position: relative;
         display: flex;
@@ -141,7 +145,7 @@
         border-top: 12px solid rgba(0, 0, 0, 0.00);
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(180deg, rgba(80, 58, 105, 0.50) 0%, rgba(80, 58, 105, 0.50) 85.42%);
         height: 100px;
-        width: 1737px;
+        width: 100vw;
     }
 
     
