@@ -50,7 +50,7 @@
 
 @media (min-width: 837px) {
     .navbar {
-        background-image: url("../assets/images/header/head_ai_image_resize.png");
+        background-image: url("../assets/images/header/ai_header_image.png");
         width: 100vw;
         background-position: 50% 50%;
         background-size: cover;
@@ -91,10 +91,24 @@
         position: absolute;
         bottom: 0;
         border-top: 12px solid rgba(0, 0, 0, 0.33);
-        background: rgba(241, 104, 8, 0.68);
+        background: rgba(241, 104, 8, 0.50);
         height: 100px;
         width: 100vw;
     }
 
-
+@media (min-width: 1737px) {
+     .navbar {
+         background-image: url("../assets/images/header/Ny_redusert_ai_header_image_dark_grey.png");
+     }
+     .navbar h1 {
+         font-size: 52px;
+    }
+     .burger_menu_tornado_orange {
+         right: 120px;
+     }
+     .logo_explore_orange {
+         top: 30px;
+         left: 35px;
+     }
+}
 }
