@@ -1,4 +1,8 @@
 
+.body {
+    background-color: black;
+}
+
 .target_box1_black {
     width: 428px;
     height: 400px;
@@ -12,8 +16,8 @@
     height: 332px;
     margin-left: 12px;
     margin-top: 30px;
-
 }
+
 .gradient_black_box {
     width: 124px;
     height: 135px;
@@ -24,7 +28,6 @@
     margin-left: 12px;
     position: absolute;
     display: flex;
-
 }
 
 .target_box1_black h2 {
@@ -58,15 +61,13 @@
     margin-left: 270px;
     margin-bottom: 35px;
     border-radius: 4px;
-
 }
 
 .gradiant_grey_box h2 {
     color: #F16808;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    padding-left: 10px;
-
+    padding-left: 20px;
 }
 
 .target_box3_black {
@@ -91,7 +92,6 @@
     position: absolute;
     margin-left: 12px;
     border-radius: 4px;
-
 }
 
 .gradiant_grey_box2 h2:nth-child(1) {
@@ -100,8 +100,8 @@
     font-weight: normal;
     padding-left: 20px;
     margin-top: 10px;
-
 }
+
 .gradiant_grey_box2 h2:nth-child(2){
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -126,7 +126,6 @@
     background-color: black;
     position: relative;
     display: flex;
-
 }
 
 .target_box4_black img {
@@ -144,7 +143,6 @@
     border-radius: 4px;
     margin-left: 20px;
     margin-top: 20px;
-
 }
 
 .gradiant_grey_box3 h2 {
@@ -167,7 +165,6 @@
     height: 175px;
     border-radius: 4px;
     margin-left: 205px;
-
 }
 
 .gradiant_grey_box4 {
@@ -179,7 +176,6 @@
     margin-bottom: 100px;
     position: absolute;
     display: flex;
-
 }
 
 .target_box5_black h2 {
@@ -188,7 +184,6 @@
     font-weight: normal;
     padding-left: 10px;
     margin-top: 10px;
-
 }
 
 .target_box5_black p {
@@ -220,5 +215,265 @@
 }
 
 @media (min-width: 837px) {
+    .target_box1_black {
+        width: 100vw;
+        height: 550px;
+    }
+
+    .target_box1_black img {
+        width: 100vw;
+        padding-right: 70px;
+        padding-left: 70px;
+        height: 490px;
+    }
+
+    .gradient_black_box {
+        padding-left: 30px;
+    }
+
+    .target_box2_black{
+        width: 100vw;
+        height: 500px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .target_box2_black img {
+        width: 437px;
+        height: 426px;
+        padding-left: 70px;
+    }
+
+    .gradiant_grey_box {
+        width: 241px;
+        height: 426px;
+        margin-left: 620px;
+    }
     
+    .gradiant_grey_box p {
+        color: white;
+        /*height: 80px;*/
+        /*width: 190px;*/
+        padding-top: 150px;
+    }
+
+    .target_box3_black {
+        width: 100vw;
+        height: 358px;
+    }
+
+    .target_box3_black img {
+        width: 338px;
+        height: 320px;
+        margin-left: 525px;
+        margin-top: 20px;
+    }
+    
+    .gradiant_grey_box2 {
+        width: 241px;
+        height: 320px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .gradiant_grey_box2 h2:nth-child(1) {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .gradiant_grey_box2 h2:nth-child(2) {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+    .target_box4_black {
+        width: 100vw;
+        height: 260px;
+    }
+
+    .target_box4_black img {
+        width: 444px;
+        height: 200px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .gradiant_grey_box3 {
+        width: 200px;
+        height: 200px;
+        margin-left: 148px;
+        margin-top: 30px;
+    }
+
+    .target_box5_black {
+        width: 100vw;
+        height: 340px;
+    }
+
+    .target_box5_black img {
+        width: 307px;
+        height: 275px;
+        margin-left: 560px;
+        margin-top: 35px;
+    }
+
+    .gradiant_grey_box4 {
+        width: 275px;
+        height: 275px;
+        margin-left: 70px;
+        margin-top: 35px;
+    }
+    
+    .target_box6_black {
+        width: 100vw;
+        padding-top: 50px;
+    }
+
+@media (min-width: 1737px) {
+
+    .target_box1_black {
+        height: 950px;
+    }
+
+    .target_box1_black img {
+        width: 1300px;
+        margin-left: 140px;
+        height: 690px;
+        margin-top: 100px;
+    }
+
+    .gradient_black_box {
+        margin-left: 140px;
+        margin-top: 160px;
+        width: 320px;
+        height: 450px;
+        font-size: 52px;
+    }
+
+    .target_box2_black{
+        width: 100vw;
+        height: 700px;
+    }
+
+    .target_box2_black img {
+        width: 637px;
+        height: 626px;
+        padding-left: 70px;
+        padding-top: 40px;
+    }
+
+    .gradiant_grey_box {
+        width: 538px;
+        height: 626px;
+        margin-left: 1120px;
+        margin-top: 40px;
+    }
+
+    .gradiant_grey_box h2 {
+        font-size: 52px;
+    }
+
+    .gradiant_grey_box p {
+        color: white;
+        padding-top: 350px;
+        padding-right: 120px;
+    }
+
+    .target_box3_black {
+        width: 100vw;
+        height: 558px;
+    }
+
+    .target_box3_black img {
+        width: 538px;
+        height: 520px;
+        margin-left: 1120px;
+        margin-top: 20px;
+    }
+
+    .gradiant_grey_box2 {
+        width: 637px;
+        height: 520px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .gradiant_grey_box2 p {
+        font-size: 24px;
+    }
+
+    .gradiant_grey_box2 h2 {
+        font-size: 52px;
+    }
+
+    .target_box4_black {
+        width: 100vw;
+        height: 560px;
+    }
+
+    .target_box4_black img {
+        width: 744px;
+        height: 400px;
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+
+    .gradiant_grey_box3 {
+        width: 538px;
+        height: 400px;
+        margin-left: 305px;
+        margin-top: 80px;
+    }
+
+    .gradiant_grey_box3 h2 {
+        font-size: 52px;
+        margin-left: 25px;
+    }
+
+    .target_box5_black {
+        width: 100vw;
+        height: 540px;
+    }
+
+    .target_box5_black img {
+        width: 500px;
+        height: 450px;
+        margin-left: 960px;
+        margin-top: 35px;
+    }
+
+    .gradiant_grey_box4 {
+        width: 500px;
+        height: 450px;
+        margin-left: 280px;
+        margin-top: 35px;
+    }
+    .gradiant_grey_box4 h2 {
+        font-size: 52px;
+    }
+    .gradiant_grey_box4 p {
+        font-size: 24px;
+        margin-top: 90px;
+    }
+
+    .target_box6_black {
+        width: 100vw;
+        height: 200px;
+        padding-top: 60px;
+      }
+
+    .target_box6_black h2 {
+        font-size: 35px;
+    }
+
+
+
+}
+
+
 }

@@ -181,10 +181,12 @@
         margin-right: 50px;
         text-underline: black;
     }
+
     .copyright {
         position: relative;
         display: flex;
     }
+
     .copyright img {
         position: absolute;
         display: flex;
@@ -192,102 +194,107 @@
         padding-bottom: 90px;
 
     }
-@media (min-width: 1737px) {
-    .footer {
-        overflow: hidden;
-        background-color: #134252;
-        position: relative;
+
+    @media (min-width: 1737px) {
+        .footer {
+            overflow: hidden;
+            background-color: #134252;
+            position: relative;
+        }
+
+        .footer_gradiant {
+            background: linear-gradient(0deg, #134252 18.33%, rgba(20, 70, 87, 0.96) 29.65%, rgba(45, 152, 205, 0.00) 103.5%);
+            width: 100vw;
+            height: 116px;
+            position: absolute;
+            bottom: 185px;
+        }
+
+        .home_box_5_astronaut {
+            background-size: 900px 1022px;
+            background-position: center;
+            background-position-y: 150px;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 1000px;
+            background-color: black;
+        }
+
+        .footer_sm_img {
+            display: flex;
+            justify-self: center;
+        }
+
+        .home_box_5_astronaut img {
+            margin-top: 170px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .home_box_5_astronaut p {
+            margin-top: 350px;
+            text-align: center;
+            color: white;
+        }
+
+        .link_section {
+            color: white;
+            display: flex;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+            justify-content: space-evenly;
+        }
+
+        .link_section a {
+            color: white;
+        }
+
+        .link_section h3 {
+            text-decoration: underline;
+            font-weight: normal;
+        }
+
+        .link_section ul {
+            padding-left: 0;
+        }
+
+        .link_section li {
+            list-style: none;
+        }
+
+        .location {
+            margin-left: 15px;
+            display: inline-block;
+        }
+
+        .OPENING_TIMES {
+            margin-left: 15px;
+            text-underline: black;
+            margin-bottom: 30px;
+        }
+
+        .KEEP_IN_TOUCH {
+            text-underline: black;
+            margin-right: 20px;
+        }
+
+        .QUICK_LINKS {
+            margin-right: 50px;
+            text-underline: black;
+        }
+
+        .copyright img {
+            display: flex;
+            width: 45px;
+            margin-left: 310px;
+
+        }
     }
 
-    .footer_gradiant {
-        background: linear-gradient(0deg, #134252 18.33%, rgba(20, 70, 87, 0.96) 29.65%, rgba(45, 152, 205, 0.00) 103.5%);
-        width: 100vw;
-        height: 116px;
-        position: absolute;
-        bottom: 185px;
-    }
-
-    .home_box_5_astronaut {
-        background-size: 900px 1022px;
-        background-position: center;
-        background-position-y: 150px;
-        background-repeat: no-repeat;
-        width: 100vw;
-        height: 1000px;
-        background-color: black;
-    }
-
-    .footer_sm_img {
-        display: flex;
-        justify-self: center;
-    }
-
-    .home_box_5_astronaut img {
-        margin-top: 170px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .home_box_5_astronaut p {
-        margin-top: 350px;
-        text-align: center;
-        color: white;
-    }
-
-    .link_section {
-        color: white;
-        display: flex;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
-        justify-content: space-evenly;
-    }
-
-    .link_section a {
-        color: white;
-    }
-
-    .link_section h3 {
-        text-decoration: underline;
-        font-weight: normal;
-    }
-
-    .link_section ul {
-        padding-left: 0;
-    }
-
-    .link_section li {
-        list-style: none;
-    }
-
-    .location {
-        margin-left: 15px;
-        display: inline-block;
-    }
-
-    .OPENING_TIMES {
-        margin-left: 15px;
-        text-underline: black;
-        margin-bottom: 30px;
-    }
-
-    .KEEP_IN_TOUCH {
-        text-underline: black;
-        margin-right: 20px;
-    }
-
-    .QUICK_LINKS {
-        margin-right: 50px;
-        text-underline: black;
-    }
-
-    .copyright img {
-        margin-right: 5px;
-        margin-bottom: 10px;
-
-    }
 }
 
-}
+
+
 
 
 

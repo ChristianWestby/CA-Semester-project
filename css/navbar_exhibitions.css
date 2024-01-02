@@ -49,3 +49,10 @@
     height: 100px;
     width: 427px;
 }
+
+
+
+@media (min-width: 1737px) {
+    background-image: url("../assets/images/header/Ny_redusert_ai_header_image_dark_grey.png");
+
+}
