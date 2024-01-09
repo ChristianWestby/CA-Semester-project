@@ -4,10 +4,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    /*background-image: url("/assets/images/header/ai_header_image_dark_grey_mobile.png");*/
-    height: 447px;
-    width: 429px;
-    background:url("/assets/images/header/ai_header_image_dark_grey_mobile.png"), lightgray 1.002px -35.797px / 99.766% 107.99% no-repeat; ;
+    background-image: url("/assets/images/header/ai_header_image_dark_grey_mobile.png");
+    background-size: 100vw 484px;
+    max-width: 1728px;
+    margin: 0 auto;
+    height: 448px;
+    background-repeat: no-repeat;
 }
 
 
@@ -50,5 +52,66 @@
     /*border-top-color: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%,*/
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(180deg, rgba(0, 210, 255, 0.25) 0%, rgba(0, 210, 255, 0.50) 85.42%);
     height: 100px;
-    width: 427px;
+    width: 100%;
 }
+
+@media (min-width: 834px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-image:url("../assets/images/header/ai_header_image_dark_grey_desktop.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 783px;
+    }
+
+
+    .navbar h1 {
+        color: #00D2FF;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        font-weight: bold;
+        font-size: 42px;
+    }
+
+    .logo_blue_home {
+        position: absolute;
+        top: 30px;
+        left: 70px;
+    }
+
+    .logo_blue_home img {
+        width: 111px;
+        height: 79px;
+        border: 1px;
+    }
+
+    .burger_menu_tornado_blue {
+        position: absolute;
+        right: 70px;
+        bottom: 20px;
+    }
+
+    .burger_menu_tornado_blue img {
+        height: 63px;
+        width: 50px;
+    }
+
+
+    .blur_blue_contactus_banner {
+        position: absolute;
+        bottom: 0;
+        border-top: 12px solid rgba(0, 0, 0, 0.00);
+        /*border-top-color: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%,*/
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), linear-gradient(180deg, rgba(0, 210, 255, 0.25) 0%, rgba(0, 210, 255, 0.50) 85.42%);
+        height: 100px;
+        width: 100vw;
+    }
+
+
+}
+
+

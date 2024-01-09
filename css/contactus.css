@@ -1,4 +1,3 @@
-
 .contact_us_page_box1_black {
     width: 428px;
     height: 645px;
@@ -81,6 +80,171 @@
     margin-top: 460px;
 }
 
+@media (min-width: 834px) {
+    .contact_us_page_box1_black {
+        width: 100vw;
+        height: 845px;
+        background-color: black;
+        display: flex;
+        position: relative;
 
+    }
 
+    .contact_us_page_box1_black img {
+        width: 800px;
+        height: 800px;
+        position: absolute;
+        justify-self: center;
+        padding-left: 15px;
+        padding-top: 15px;
 
+    }
+
+    .gradient_frame_contact_us_page_box1_black {
+        background-color: #00000080;
+        width: 580px;
+        height: 740px;
+        margin-left: 130px;
+        position: absolute;
+        justify-self: center;
+        margin-top: 30px;
+    }
+
+    .icon_map img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 380px;
+        margin-top: 50px;
+    }
+
+    .icon_map p {
+        color: white;
+        font-size:24px;
+        position: absolute;
+        margin-left: 190px;
+        margin-right: 100px;
+        margin-top: 180px;
+        font-family: 'Open Sans', sans-serif;
+        align-self: center;
+
+    }
+
+    .icon_phone img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 380px;
+        margin-top: 260px;
+    }
+
+    .icon_phone p {
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 420px;
+    }
+
+    .icon_email img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 380px;
+        margin-top: 500px;
+    }
+    .icon_email p {
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 290px;
+        margin-top: 650px;
+    }
+@media (min-width: 1737px) {
+    .contact_us_page_box1_black {
+        width: 100vw;
+        height: 1145px;
+        background-color: black;
+        display: flex;
+        position: relative;
+
+    }
+
+    .contact_us_page_box1_black img {
+        width: 1650px;
+        height: 1000px;
+        position: absolute;
+        justify-self: center;
+        padding-left: 15px;
+        padding-top: 15px;
+
+    }
+
+    .gradient_frame_contact_us_page_box1_black {
+        background-color: #00000080;
+        width: 1300px;
+        height: 940px;
+        margin-left: 230px;
+        position: absolute;
+        justify-self: center;
+        margin-top: 30px;
+    }
+
+    .icon_map img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 810px;
+        margin-top: 150px;
+    }
+
+    .icon_map p {
+        color: white;
+        font-size:24px;
+        position: absolute;
+        margin-left: 620px;
+        margin-right: 100px;
+        margin-top: 260px;
+        font-family: 'Open Sans', sans-serif;
+        align-self: center;
+
+    }
+
+    .icon_phone img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 820px;
+        margin-top: 360px;
+    }
+
+    .icon_phone p {
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 790px;
+        margin-top: 470px;
+    }
+
+    .icon_email img {
+        width: 76px;
+        height: 76px;
+        position: absolute;
+        display: flex;
+        margin-left: 820px;
+        margin-top: 570px;
+    }
+    .icon_email p {
+        color: white;
+        font-size: 24px;
+        position: absolute;
+        margin-left: 720px;
+        margin-top: 720px;
+    }
+}
+}

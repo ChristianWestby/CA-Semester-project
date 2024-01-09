@@ -4,9 +4,7 @@
     justify-content: center;
     position: relative;
     background-image: url("/assets/images/header/ai_header_image_dark_grey_mobile.png");
-    height: 447px;
     background-size: 100vw 484px;
-
 }
 
 .navbar h1 {

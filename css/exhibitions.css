@@ -37,7 +37,7 @@ body{
     margin-left: 10px;
     margin-top: 10px;
     position: absolute;
-    margin-bottom: 0px;
+
 }
 
 .exhibitions_page_box1_black p {
@@ -75,7 +75,6 @@ body{
     display: flex;
     margin-top: 5px;
     margin-left: 12px;
-
 }
 
 .exhibitions_page_box2_black p {
@@ -83,14 +82,11 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    /*margin-left: 15px;*/
     margin-top: 50px;
     margin-right: 200px;
     margin-left: 10px;
     position: absolute;
     display: flex;
-
-
 }
 
 .exhibitions_page_box3_black {
@@ -107,7 +103,6 @@ body{
     border-radius: 4px;
     margin-left: 12px;
     margin-top: 10px;
-
 }
 
 .exhibitions_page_box3_black h2 {
@@ -119,7 +114,6 @@ body{
     display: flex;
     margin-top: 0px;
     margin-left: 240px;
-
 }
 
 .exhibitions_page_box3_black p {
@@ -127,7 +121,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    /*margin-left: 15px;*/
     margin-top: 50px;
     margin-right: 10px;
     margin-left: 240px;
@@ -141,7 +134,6 @@ body{
     background-color: black;
     position: relative;
     display: flex;
-
 }
 
 .exhibitions_page_box4_black img {
@@ -200,7 +192,6 @@ body{
     position: absolute;
     margin-left: 12px;
     margin-right: 150px;
-    margin-top: 0px;
 }
 
 .exhibitions_page_box5_black p {
@@ -238,8 +229,6 @@ body{
     position: absolute;
     left: 12px;
     top: 5px;
-    margin: 0;
-
 }
 
 .exhibitions_page_box6_black h2:nth-child(3) {
@@ -250,7 +239,6 @@ body{
     position: absolute;
     left: 12px;
     top: 35px;
-    margin: 0;
 }
 
 .exhibitions_page_box6_black h2:nth-child(4) {
@@ -261,7 +249,6 @@ body{
     position: absolute;
     left: 12px;
     top: 65px;
-    margin: 0;
 }
 
 .exhibitions_page_box6_black p:nth-child(5) {
@@ -312,8 +299,288 @@ body{
         width: 100vw;
     }
 
-    .exhibitions_page_box1_black img:nth-child(1) {
-        width: 200px;
-        margin-left: 520px;
+    .exhibitions_page_box1_black {
+        width: 100vw ;
+        height: 250px;
+        background-color: black;
+        position: relative;
+        display: flex;
     }
+
+    .exhibitions_page_box1_black img:nth-child(1) {
+        width: 100px;
+        height: 133px;
+        position: absolute;
+        display: flex;
+        margin-left: 680px;
+        margin-top: 20px;
+    }
+
+    .exhibitions_page_box1_black img:nth-child(2) {
+        width: 117px;
+        height: 128px;
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 100px;
+        border-radius: 4px;
+    }
+
+    .exhibitions_page_box2_black {
+        width: 834px;
+        height: 197px;
+    }
+
+    .exhibitions_page_box2_black img {
+        margin-left: 600px;
+    }
+
+    .exhibitions_page_box3_black {
+        width: 834px;
+    }
+
+    .exhibitions_page_box4_black {
+        width: 834px;
+    }
+
+    .exhibitions_page_box5_black {
+        width: 834px;
+    }
+
+    .exhibitions_page_box5_black img {
+        margin-left: 610px;
+    }
+
+    .exhibitions_page_box5_black p {
+        margin-right: 300px;
+    }
+
+    .exhibitions_page_box6_black {
+        width: 834px;
+    }
+
+    .exhibitions_page_box6_black img {
+        margin-left: 610px;
+    }
+
+    .exhibitions_page_box6_black h2:nth-child(3) {
+        left: 60px;
+    }
+
+    .exhibitions_page_box6_black h2:nth-child(4) {
+        left: 110px;
+    }
+
+    .exhibitions_page_box6_black p:nth-child(5) {
+        left: 90px;
+    }
+
+    .exhibitions_page_box7_black {
+        width: 834px;
+    }
+
+    .exhibitions_page_box7_black h2 {
+        left: 290px;
+    }
+
+
+@media (min-width: 1737px) {
+    body{
+        width: 100vw;
+    }
+
+    .exhibitions_page_box1_black {
+        width: 100vw ;
+        height: 350px;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+
+    .exhibitions_page_box1_black img:nth-child(1) {
+        width: 169px;
+        height: 190px;
+        position: absolute;
+        display: flex;
+        margin-left: 1550px;
+        margin-top: 40px;
+    }
+
+    .exhibitions_page_box1_black img:nth-child(2) {
+        width: 167px;
+        height: 168px;
+        position: absolute;
+        display: flex;
+        margin-left: 1440px;
+        margin-top: 150px;
+        border-radius: 4px;
+    }
+
+    .exhibitions_page_box1_black h2 {
+        font-size: 42px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    .exhibitions_page_box1_black p {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-right: 350px;
+        margin-left: 70px;
+    }
+
+    .exhibitions_page_box2_black {
+        width: 100vw;
+        height: 297px;
+    }
+
+    .exhibitions_page_box2_black img {
+        width: 276px;
+        height: 270px;
+        border-radius: 4px;
+        margin-left: 1420px;
+        margin-top: 12px;
+    }
+
+    .exhibitions_page_box2_black h2 {
+        font-size: 42px;
+        margin-left: 70px;
+    }
+
+    .exhibitions_page_box2_black p {
+        font-size: 24px;
+        margin-top: 90px;
+        margin-right: 300px;
+        margin-left: 70px;
+    }
+
+    .exhibitions_page_box3_black {
+        width: 100vw;
+        height: 397px;
+    }
+
+    .exhibitions_page_box3_black img {
+        width: 340px;
+        height: 310px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+
+    .exhibitions_page_box3_black h2 {
+        font-size: 42px;
+        margin-left: 850px;
+    }
+
+    .exhibitions_page_box3_black p {
+        font-size: 24px;
+        margin-top: 90px;
+        margin-left: 850px;
+        margin-right: 70px;
+    }
+
+    .exhibitions_page_box4_black {
+        width: 100vw;
+        height: 497px;
+    }
+
+    .exhibitions_page_box4_black img {
+        width: 387px;
+        height: 370px;
+        margin-left: 70px;
+        margin-top: 80px;
+    }
+
+    .exhibitions_page_box4_black h2 {
+        font-size: 42px;
+        margin-left: 850px;
+    }
+
+    .exhibitions_page_box4_black p {
+        font-size: 24px;
+        margin-left: 850px;
+        margin-top: 90px;
+    }
+
+    .exhibitions_page_box5_black {
+        width: 100vw;
+        height: 397px;
+    }
+
+    .exhibitions_page_box5_black img {
+        width: 384px;
+        height: 370px;
+        margin-left: 1300px;
+        margin-top: 15px;
+    }
+
+    .exhibitions_page_box5_black h2 {
+        font-size: 42px;
+
+        margin-left: 70px;
+        margin-right: 150px;
+        margin-top: 15px;
+    }
+
+    .exhibitions_page_box5_black p {
+        font-size: 24px;
+        margin-left: 70px;
+        margin-right: 400px;
+        margin-top: 90px;
+    }
+
+    .exhibitions_page_box6_black {
+        width: 100vw;
+        height: 397px;
+    }
+
+    .exhibitions_page_box6_black img {
+        width: 385px;
+        height: 370px;
+        margin-left: 1300px;
+        margin-top: 15px;
+    }
+
+    .exhibitions_page_box6_black h2:nth-child(2) {
+        font-size: 42px;
+        margin-left: 70px;
+        top: 15px;
+    }
+
+    .exhibitions_page_box6_black h2:nth-child(3) {
+        font-size: 42px;
+        left: 110px;
+        top: 70px;
+    }
+
+    .exhibitions_page_box6_black h2:nth-child(4) {
+        font-size: 42px;
+        left: 160px;
+        top: 130px;
+    }
+
+    .exhibitions_page_box6_black p:nth-child(5) {
+        left: 80px;
+        top: 210px;
+        width: 600px;
+        font-size: 24px;
+    }
+
+    .exhibitions_page_box7_black {
+        width: 100vw;
+        height: 297px;
+        background-color: black;
+    }
+
+    .exhibitions_page_box7_black h2 {
+        font-size: 42px;
+        left: 640px;
+        position: absolute;
+    }
+
+    .visit_us_button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 }
