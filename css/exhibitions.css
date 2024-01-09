@@ -37,7 +37,7 @@ body{
     margin-left: 10px;
     margin-top: 10px;
     position: absolute;
-    margin-bottom: 0px;
+
 }
 
 .exhibitions_page_box1_black p {
@@ -75,7 +75,6 @@ body{
     display: flex;
     margin-top: 5px;
     margin-left: 12px;
-
 }
 
 .exhibitions_page_box2_black p {
@@ -83,14 +82,11 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    /*margin-left: 15px;*/
     margin-top: 50px;
     margin-right: 200px;
     margin-left: 10px;
     position: absolute;
     display: flex;
-
-
 }
 
 .exhibitions_page_box3_black {
@@ -107,7 +103,6 @@ body{
     border-radius: 4px;
     margin-left: 12px;
     margin-top: 10px;
-
 }
 
 .exhibitions_page_box3_black h2 {
@@ -119,7 +114,6 @@ body{
     display: flex;
     margin-top: 0px;
     margin-left: 240px;
-
 }
 
 .exhibitions_page_box3_black p {
@@ -127,7 +121,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    /*margin-left: 15px;*/
     margin-top: 50px;
     margin-right: 10px;
     margin-left: 240px;
@@ -141,7 +134,6 @@ body{
     background-color: black;
     position: relative;
     display: flex;
-
 }
 
 .exhibitions_page_box4_black img {
@@ -200,7 +192,6 @@ body{
     position: absolute;
     margin-left: 12px;
     margin-right: 150px;
-    margin-top: 0px;
 }
 
 .exhibitions_page_box5_black p {
@@ -238,8 +229,6 @@ body{
     position: absolute;
     left: 12px;
     top: 5px;
-    margin: 0;
-
 }
 
 .exhibitions_page_box6_black h2:nth-child(3) {
@@ -250,7 +239,6 @@ body{
     position: absolute;
     left: 12px;
     top: 35px;
-    margin: 0;
 }
 
 .exhibitions_page_box6_black h2:nth-child(4) {
@@ -261,7 +249,6 @@ body{
     position: absolute;
     left: 12px;
     top: 65px;
-    margin: 0;
 }
 
 .exhibitions_page_box6_black p:nth-child(5) {
